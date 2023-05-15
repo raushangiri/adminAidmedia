@@ -13,7 +13,7 @@ const SuperAdminDashboard = () => {
     name: "",
   });
   const getdashborad = () => {
-    fetch("/getadmin")
+    fetch("https://backend-87hw.onrender.com/getadmin")
       .then((response) => response.json())
       .then((result) => {
         setdata(result);
